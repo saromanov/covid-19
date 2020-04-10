@@ -10,9 +10,10 @@ export class Corona {
 
     }
 
-    public do(url: string) {
+    public async do(url: string) {
         requests(url, (error, resp, body) => {
             this.data = body;
+            console.log(body);
         })
     }
 
