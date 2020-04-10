@@ -18,8 +18,9 @@
     "typescript": "^3.3.3"
   },
   "scripts": {
-    "start": "tsc && node dist/app.js",
-    "test": "mocha test"
+    "start": "tsc && node dist/server.js",
+    "test": "mocha test",
+    "serve": "node dist/server.js"
   },
   "repository": {
     "type": "git",
