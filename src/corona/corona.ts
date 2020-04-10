@@ -1,6 +1,6 @@
 import requests from 'requests';
 
-class Corona {
+export class Corona {
     public data: string
     constructor(data:string) {
         this.data = data;
